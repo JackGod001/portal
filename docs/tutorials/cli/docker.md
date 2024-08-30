@@ -82,7 +82,7 @@ $ tree
 
 7 directories, 10 files
 
-# 生成 Dockerfile 文件
+# 生成 Dockerfile 文件, 保证在go.mod所在目录执行以下命令
 $ goctl docker --go hello.go --exe hello
 Hint: run "docker build ..." command in dir:
     /Users/keson/hello
